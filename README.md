@@ -4,14 +4,17 @@ súborov medzi rôznymi mojimi pracovnami a počítačmi s Linuxom.
 
 
 Ďalšie užitočné stránky:
+
 http://vimawesome.com/
+
 http://vimcolors.com/
+
 
 #### Základné terminálové programy
 
-``sh
+```sh
 sudo apt install terminator tmux vim ctags git htop
-``
+```
 
 #### Konfiguračné súbory
 
