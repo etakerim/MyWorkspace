@@ -1,0 +1,19 @@
+[global_config]
+  title_font = Sans 11
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+    font = Inconsolata Medium 11
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
