@@ -8,17 +8,18 @@ BACKUP_DIR="$SCRIPT_PATH/backup_Config"
 # Zálohy
 mkdir $BACKUP_DIR
 cd ~/
-cp .vimrc .bashrc .zshrc .tmux.conf $BACKUP_DIR/
-cp -r ~/.config $BACKUPDIR/
-
+mv .vimrc .bashrc .zshrc .tmux.conf $BACKUP_DIR/
+mv ~/.config/terminator $BACKUPDIR/
+mv ~/.vim $BACKUP_DIR/
 
 # Presun nových skriptov
+mv $SCRIPT_PATH/.vim  ~/.vim
 mv $SCRIPT_PATH/.vimrc $SCRIPT_PATH/.bashrc $SCRIPT_PATH/.zshrc ~/
 mv $SCRIPT_PATH/.tmux.conf ~/
-mv $SCRIPT_PATH/terminator ~/.config/terminator
+mv  $SCRIPT_PATH/terminator ~/.config/terminator
 
 # Inštalácia vim pluginov
-cd ~/.vim
+cd ~/.vim/bundle
 git clone https://github.com/ctrlpvim/ctrlp.vim.git
 git clone https://github.com/scrooloose/nerdtree
 git clone https://github.com/tmhedberg/SimpylFold
