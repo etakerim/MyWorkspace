@@ -2,7 +2,8 @@
 SCRIPT_PATH="$( cd "$( dirname "$0" )" && pwd )"
 BACKUP_DIR="$SCRIPT_PATH/old_config"
 
-sudo apt install zsh vim tmux terminator curl git htop ipython3 -y
+sudo apt install zsh vim tmux terminator curl git htop python3 gcc -y
+sudo pip3 install ipython
 
 # if ! [ "$SHELL" = "/usr/bin/zsh" ]; then
     # chsh -s $(which zsh)
