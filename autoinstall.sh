@@ -11,7 +11,7 @@ sudo apt install zsh vim tmux terminator curl git htop ipython3 -y
 # Zálohy
 mkdir $BACKUP_DIR
 cd ~/
-mv .vimrc .bashrc .zshrc .tmux.conf .tmuxstatusbar \
+mv .vimrc .bashrc .zshrc .tmux.conf .tmuxstatusbar .gitconfig\
     $BACKUP_DIR/  2> /dev/null
 mv ~/.config/terminator/* $BACKUPDIR/terminator/ 2> /dev/null
 mv ~/.vim/* $BACKUP_DIR/.vim/   2> /dev/null
@@ -19,7 +19,8 @@ mv ~/.vim/* $BACKUP_DIR/.vim/   2> /dev/null
 # Presun nových skriptov
 cp $SCRIPT_PATH/.vim/*  ~/.vim/
 cp $SCRIPT_PATH/.vimrc $SCRIPT_PATH/.bashrc $SCRIPT_PATH/.zshrc \
-   $SCRIPT_PATH/.tmux.conf $SCRIPT_PATH/.tmuxstatusbar ~/
+   $SCRIPT_PATH/.tmux.conf $SCRIPT_PATH/.tmuxstatusbar $SCRIPT_PATH/.gitconfig \
+   ~/
 cp $SCRIPT_PATH/terminator/* ~/.config/terminator/
 
 # Inštalácia vim pluginov
