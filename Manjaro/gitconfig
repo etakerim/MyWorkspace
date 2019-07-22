@@ -1,0 +1,7 @@
+[user]
+	email = mirkousko@gmail.com
+	name = Miroslav Hájek
+[push]
+	default = simple
+[core]
+	editor = nvim
