@@ -53,4 +53,5 @@ git clone https://github.com/Xuyuanp/nerdtree-git-plugin
 cd YouCompleteMe
 ./install.py --go-completer --clang-completer
 
+sudo pip install virtualenvwrapper
 cp $SCRIPT_PATH/gitconfig ~/.gitconfig

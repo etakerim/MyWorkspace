@@ -31,5 +31,8 @@ export CLICOLOR=1
 PROMPT='%F{green}%n%f@%F{magenta}%m%f %F{blue}%B%~%b%f %# '
 prompt agnoster
 
+source /usr/bin/virtualenvwrapper.sh
+export WORKON_HOME=~/Dokumenty/py-venvs
+
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
