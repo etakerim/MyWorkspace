@@ -49,6 +49,7 @@ git clone --recurse-submodules https://github.com/python-mode/python-mode
 git clone https://github.com/fatih/vim-go
 git clone https://github.com/chrisbra/csv.vim
 git clone https://github.com/Xuyuanp/nerdtree-git-plugin
+git clone https://github.com/freitass/todo.txt-vim
 
 cd YouCompleteMe
 ./install.py --go-completer --clang-completer
